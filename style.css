@@ -169,23 +169,23 @@ main {
     HERO
 */
 
-.hero {
+.banner {
   margin-bottom: 150px;
 }
 
-.hero-main {
+.banner-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 
-.hero-info__left {
+.banner-info-left {
   max-width: 45%;
   padding-left: 90px;
 }
 
-.hero-title {
+.banner-title {
   color: #141414;
   font-feature-settings: "calt" off;
   font-family: "Aqum";
@@ -195,7 +195,7 @@ main {
   margin-bottom: 20px;
 }
 
-.hero-meta-description {
+.banner-description {
   color: #0a0606;
   font-feature-settings: "calt" off;
   font-size: 28px;
@@ -205,7 +205,7 @@ main {
   margin-bottom: 30px;
 }
 
-.hero-description {
+.banner-main-description {
   color: #0a0606;
   font-feature-settings: "calt" off;
   font-size: 18px;
@@ -215,7 +215,7 @@ main {
   margin-bottom: 30px;
 }
 
-.hero-btn {
+.banner-btn {
   color: #0a0606;
   background-color: #FFD401;
   padding: 12px 30px;
@@ -227,14 +227,14 @@ main {
   text-decoration: none;
 }
 
-.hero-img {
+.banner-img {
   margin-right: 60px;
   width: 601px;
   height: 660px;
   border-radius: 190px;
 }
 
-.hero-info__right {
+.banner-info-right {
   position: relative;
 }
 

@@ -108,6 +108,9 @@ main {
   padding-bottom: 25px;
   padding-top: 25px;
 }
+.logo {
+  margin-right: 50px; 
+}
 
 .header-nav {
   display: flex;
@@ -238,41 +241,35 @@ main {
   position: relative;
 }
 
-.highlighted-info {
-  text-align: center;
-  padding: 20px;
+.highlighted-info table {
+  width: 100%; 
+  border-collapse: collapse; 
+  margin: 20px 0; 
 }
 
-.info-list span {
-    font-family: "Aqum";
-    color: #0a0606;
-    text-align: center;
-    font-size: 48px;
-    line-height: 54px;
-    letter-spacing: -0.96px;
-    margin-bottom: 15px;
-    display: inline-block;
+.highlighted-info td {
+  padding: 15px; 
+  text-align: center; 
+  border: 1px solid #ddd; 
+  background-color: #f9f9f9; 
+}
+
+.highlighted-info .info-number {
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #FFD401; 
+}
+
+.highlighted-info .info-text {
+  font-size: 16px; 
+  color: #333; 
+  margin-top: 10px; 
+}
+
+@media (max-width: 768px) {
+  .highlighted-info .info-list {
+    flex-direction: column; 
   }
-
-
-.info-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 160px;
-  text-align: center;
-}
-
-.info-number {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #333; /* Акцентний колір */
-  margin-bottom: 5px;
-}
-
-.info-text {
-  font-size: 1rem;
-  color: #333;
 }
 
 @media (max-width: 700px) {
